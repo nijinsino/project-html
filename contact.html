@@ -1,0 +1,72 @@
+<html lang="en">
+<head>
+  <!-- Meta information -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>contact page</title>
+  <meta name="description" content="Welcome to Board Games Shop">
+  <meta name="robots" content="noindex, nofollow">
+  <!-- Link to external stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+        <h1>VINTAGE VIEWFINDERS</h1>
+    </div>
+    <nav>
+        <ul>
+            <!-- Navigation links -->
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="product.html">Products</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <!-- Contact form -->
+    <div class="contact-form">
+      <h2>Get in Touch</h2>
+      <form action="submit_form.php" method="post">
+        <!-- Name input -->
+        <label for="name">Name:</label>
+        <!-- added required so that user can't left the space empty -->
+        <input type="text" id="name" name="name" required>
+
+        <!-- Email input -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <!-- Phone input -->
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <!-- Message textarea -->
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <!-- Submit button -->
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+</main>
+<!-- New contact information box -->
+<div class="contact-info-box">
+  <p><strong>Address:</strong> 333 blvd street</p>
+  <p><strong>Contact Number:</strong> +1 (249)-792-323</p>
+  <p><strong>Working Days:</strong> Monday to Friday</p>
+</div>
+<footer>
+  <div class="social-icons">
+      <a href="https://facebook.com" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://twitter.com" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+      <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="https://youtube.com" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+  </div>
+  <p>&copy; 2024 Vintage Viewfinders | <a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms of Service</a></p>
+</footer>
+<script src="js/script.js"></script>
+</body>
+</html>
